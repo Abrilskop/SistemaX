@@ -1,4 +1,4 @@
-# Proyecto de Consultas a Base de Datos con PHP y Ajax
+# Proyecto de Consultas a Base de Datos con PHP y Ajax (MVC)
 
 Este proyecto consiste en la creación de una **aplicación web dinámica** que interactúa con una base de datos utilizando **PHP** como lenguaje del lado del servidor y **Ajax** para realizar consultas a la base de datos de forma asincrónica. La aplicación permite consultar y mostrar datos de un sistema de base de datos llamado **SistemaX** sin necesidad de recargar la página, mejorando la experiencia del usuario.
 
