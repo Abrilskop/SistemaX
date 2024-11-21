@@ -5,6 +5,5 @@
 		<script type="text/javascript" src="../js/scripts.js"></script>
 		<!-- agregar validacion y verificacion -->
 		<script type="text/javascript" src="../js/validacion.js"></script>
-		<script type="text/javascript" src="../js/verificar.js"></script>
 </main>
 </body>
