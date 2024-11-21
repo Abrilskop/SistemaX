@@ -16,18 +16,24 @@
     </div>
   </li>
   <!-- implementacion guia -->
-  <li><a href="./login.html"><i class="material-icons">home</i> SALIR</a></li>
-  <li><div class="divider" ></div></li>
-  <li><a href="../usuarios/index.php"><i class="material-icons">beenhere</i>ALTA USUARIOS</a></li>
-  <li><div class="divider" ></div></li>
-  <li><a href="../productos/index.php"><i class="material-icons">beenhere</i>ALTA PRODUCTOS</a></li>
-  <li><div class="divider" ></div></li>
-  <li><a href="../clientes/index.php"><i class="material-icons">beenhere</i>ALTA CLIENTES</a></li>
-  <li><div class="divider" ></div></li>
-  <li><a href="../ventas/index.php"><i class="material-icons">beenhere</i>ALTA VENTAS</a></li>
-  <li><div class="divider" ></div></li>
-  <li><a href="../detalleventa/index.php"><i class="material-icons">beenhere</i>ALTA DETALLEVENTA</a></li>
-  <li><div class="divider" ></div></li>
-  <li><a href="salir.php"><i class="material-icons">close</i> Salir</a></li>
-  <li><div class="divider" ></div></li>
+  <li><a href="./login.html"><i class="material-icons">home</i> INICIO</a></li>
+  <li><div class="divider"></div></li>
+
+  <li><a href="../usuarios/index.php"><i class="material-icons">person_add</i> ALTA USUARIOS</a></li>
+  <li><div class="divider"></div></li>
+
+  <li><a href="../productos/index.php"><i class="material-icons">add_box</i> ALTA PRODUCTOS</a></li>
+  <li><div class="divider"></div></li>
+
+  <li><a href="../clientes/index.php"><i class="material-icons">supervised_user_circle</i> ALTA CLIENTES</a></li>
+  <li><div class="divider"></div></li>
+
+  <li><a href="../ventas/index.php"><i class="material-icons">attach_money</i> ALTA VENTAS</a></li>
+  <li><div class="divider"></div></li>
+
+  <li><a href="../detalleventa/index.php"><i class="material-icons">assignment</i> ALTA DETALLEVENTA</a></li>
+  <li><div class="divider"></div></li>
+
+  <li><a href="salir.php"><i class="material-icons">exit_to_app</i> SALIR</a></li>
+  <li><div class="divider"></div></li>
 </ul>
