@@ -4,8 +4,8 @@
     <div class="col s12">
         <div class="card">
             <div class="card-content #e0f7fa cyan lighten-5">
-                <center><span class="card-title">USUARIOS</span></center>
-                <p>ALTA DE USUARIOS</p>
+                <center><span class="card-title">CLIENTES</span></center>
+                <p>ALTA DE CLIENTES</p>
                 <div class="input-field">
                     <input type="text" name="nombre" required autofocus 
                            title="DEBE DE CONTENER ENTRE 8 Y 15 CARACTERES, SOLO LETRAS" 
