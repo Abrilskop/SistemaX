@@ -13,7 +13,7 @@
                            id="producto" onblur="may(this.value, this.id)">
                     <label for="producto">Producto:</label>
                 </div>
-                <div class="verificar"></div>
+                <div class="validacion"></div>
             </div>
         </div>
     </div>
