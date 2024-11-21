@@ -3,7 +3,7 @@
 
     $producto = $con->real_escape_string($_POST['producto']);
 
-    $sel = $con->query("SELECT idProducto FROM productos WHERE Nombre='$producto'");
+    $sel = $con->query("SELECT idProductos FROM productos WHERE Nombre='$producto'");
     $row = mysqli_num_rows($sel);
 
     if ($row != 0) {
