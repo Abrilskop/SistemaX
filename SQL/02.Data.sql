@@ -1,18 +1,20 @@
+
 -- -----------------------------------------------------
 -- Agregar registros
 -- -----------------------------------------------------
 INSERT INTO `sistemax`.`Usuario` (`nick`, `nombre`, `pass`, `correo`, `nivel`, `bloqueo`, `foto`)
 VALUES
-('juan123', 'Juan Pérez', 'password123', 'juan.perez@mail.com', 'admin', 0, 'juan123.jpg'),
-('ana456', 'Ana Gómez', 'password456', 'ana.gomez@mail.com', 'user', 0, 'ana456.jpg'),
-('luis789', 'Luis Martínez', 'password789', 'luis.martinez@mail.com', 'user', 0, 'luis789.jpg'),
-('marta321', 'Marta Rodríguez', 'password321', 'marta.rodriguez@mail.com', 'admin', 1, 'marta321.jpg'),
-('carla654', 'Carla Fernández', 'password654', 'carla.fernandez@mail.com', 'user', 0, 'carla654.jpg'),
-('jorge123', 'Jorge Pérez', 'password123', 'jorge.perez@mail.com', 'user', 0, 'jorge123.jpg'),
-('rosa987', 'Rosa Sánchez', 'password987', 'rosa.sanchez@mail.com', 'admin', 0, 'rosa987.jpg'),
-('victor555', 'Víctor López', 'password555', 'victor.lopez@mail.com', 'user', 0, 'victor555.jpg'),
-('paula111', 'Paula García', 'password111', 'paula.garcia@mail.com', 'user', 1, 'paula111.jpg'),
-('joseph777', 'Joseph Ruiz', 'password777', 'joseph.ruiz@mail.com', 'admin', 0, 'joseph777.jpg');
+('juan123', 'Juan Pérez', 'password123', 'juan.perez@mail.com', 'ADMINISTRADOR', 0, 'juan123.jpg'),
+('ana456', 'Ana Gómez', 'password456', 'ana.gomez@mail.com', 'ASESOR', 0, 'ana456.jpg'),
+('luis789', 'Luis Martínez', 'password789', 'luis.martinez@mail.com', 'ASESOR', 0, 'luis789.jpg'),
+('marta321', 'Marta Rodríguez', 'password321', 'marta.rodriguez@mail.com', 'ADMINISTRADOR', 1, 'marta321.jpg'),
+('carla654', 'Carla Fernández', 'password654', 'carla.fernandez@mail.com', 'ASESOR', 0, 'carla654.jpg'),
+('jorge123', 'Jorge Pérez', 'password123', 'jorge.perez@mail.com', 'ASESOR', 0, 'jorge123.jpg'),
+('rosa987', 'Rosa Sánchez', 'password987', 'rosa.sanchez@mail.com', 'ADMINISTRADOR', 0, 'rosa987.jpg'),
+('victor555', 'Víctor López', 'password555', 'victor.lopez@mail.com', 'ASESOR', 0, 'victor555.jpg'),
+('paula111', 'Paula García', 'password111', 'paula.garcia@mail.com', 'ASESOR', 1, 'paula111.jpg'),
+('joseph777', 'Joseph Ruiz', 'password777', 'joseph.ruiz@mail.com', 'ADMINISTRADOR', 0, 'joseph777.jpg');
+
 
 INSERT INTO `sistemax`.`Clientes` (`Nombre`, `Apellido`, `correo`, `fechaIngreso`, `Telefono`)
 VALUES
@@ -42,26 +44,26 @@ VALUES
 
 INSERT INTO `sistemax`.`Productos` (`Nombre`, `Estado`, `Stock`, `precio`)
 VALUES
-('Laptop HP', 'Disponible', 50, 799.99),
-('Silla Ergonomica', 'Disponible', 20, 149.99),
-('Cámara Sony', 'Agotado', 0, 499.99),
-('Teclado Logitech', 'Disponible', 80, 39.99),
-('Monitor Samsung', 'Disponible', 30, 299.99),
-('Tablet Samsung', 'Disponible', 15, 229.99),
-('Auriculares Bose', 'Disponible', 60, 129.99),
-('Móvil iPhone 13', 'Agotado', 0, 999.99),
-('Cafetera DeLonghi', 'Disponible', 10, 89.99),
-('Cámara Canon', 'Disponible', 25, 399.99);
+('Laptop', 'Nuevo', 100, 799.99),
+('Silla de oficina', 'Nuevo', 50, 49.99),
+('Martillo', 'Usado', 200, 15.99),
+('Olla', 'Nuevo', 30, 29.99),
+('Monitor', 'Nuevo', 75, 199.99),
+('Camiseta', 'Nuevo', 150, 19.99),
+('Pico', 'Usado', 100, 12.99),
+('Licuadora', 'Nuevo', 40, 99.99),
+('Cuaderno', 'Nuevo', 500, 2.99),
+('Cámara fotográfica', 'Nuevo', 60, 299.99);
 
 INSERT INTO `sistemax`.`DetalleVenta` (`Cantidad`, `Descuento`, `idProductos`, `idVenta`)
 VALUES
-(2, 10.00, 1, 1),
-(1, 0.00, 2, 2),
-(3, 5.00, 3, 3),
-(5, 3.00, 4, 4),
-(1, 0.00, 5, 5),
-(4, 2.50, 6, 6),
-(2, 0.00, 7, 7),
-(1, 7.50, 8, 8),
-(6, 0.00, 9, 9),
-(3, 5.00, 10, 10);
+(1, 0.00, 1, 1),
+(2, 5.00, 2, 1),
+(1, 10.00, 3, 2),
+(3, 0.00, 4, 3),
+(1, 20.00, 5, 4),
+(2, 10.00, 6, 5),
+(1, 5.00, 7, 6),
+(3, 0.00, 8, 7),
+(2, 15.00, 9, 8),
+(1, 10.00, 10, 9);
