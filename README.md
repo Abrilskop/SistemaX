@@ -43,9 +43,7 @@ El objetivo de este proyecto es permitir que los usuarios realicen consultas sob
 
 ### Resultados esperados:
 
-- El sistema permitirá realizar consultas a la base de datos sin recargar la página, gracias a la integración de **Ajax** y PHP.
-- Los usuarios podrán ver la disponibilidad de productos y realizar validaciones de nombres de usuario en tiempo real.
-- 
+
 ### Tecnologías utilizadas:
 
 - **PHP**: Lenguaje del lado del servidor para la gestión de solicitudes y consultas a la base de datos.
