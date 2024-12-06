@@ -42,7 +42,8 @@ El objetivo de este proyecto es permitir que los usuarios realicen consultas sob
 - Abre tu navegador y accede a `http://localhost/nombre-del-repositorio`.
 
 ### Resultados esperados:
-
+- El sistema permitirá realizar consultas a la base de datos sin recargar la página, gracias a la integración de **Ajax** y PHP.
+- Los usuarios podrán ver la disponibilidad de productos y realizar validaciones de nombres de usuario en tiempo real.
 
 ### Tecnologías utilizadas:
 
